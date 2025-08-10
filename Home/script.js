@@ -236,7 +236,7 @@ activities_submission.addEventListener('click', function(event) {
 
     if (result != 'Tiebreaker'){
         result_div.querySelector('#act-img1').style =  "visibility: hidden";
-        result_div.querySelector('#act-img2').style =  "visibility: hidden";
+        result_div.querySelector('#act-img2').style =  "visibility: visible";
         result_div.querySelector('#act-img3').style =  "visibility: hidden";
 
         result_div.querySelector('#act-text').innerHTML = `Your spirit animal is ${result}`;

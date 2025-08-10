@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <link rel="stylesheet" href="../SmeePhaGi.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+    <ul class="navbar">
+        <a href="SmeePhaGi.html"><img src="../img/SmeePhaGi-Logo-TP.png" alt="Logo" class="logo"></a>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="Donate.html">Donate</a></li>
+        <li><a href="About.html">About Us</a></li>
+    </ul>
+
+    <h2 class="center">Who do you Smee Pha Gi?</h3>
+    <p class="center">Who is your spirit animal? The aloof and steadfast Smee, the cute and quirky Pha, or the sharp and witty Gi? Fill out how much you agree with each of the following statements to find out!
+    </p>
+
+    <!-- <form action="Activities-Results.php" method="POST" class="grid-form center"> commenting out because can't use php for static website--> 
+    <form class="grid-form center" id = "activities-form">
+        <div>
+        <label for="q1">You have a big appetite</label>
+        </div>
+        <div>
+            <span>Disagree<input type="range" name="q1" min="1" max="5" value="3">Agree</span>
+        </div>
+        <br>
+
+        <div>
+        <label for="q2">You believe red meat is superior to fish</label>
+        </div>
+        <div>
+            <span>Disagree<input type="range" name="q2" min="1" max="5" value="3">Agree</span>
+        </div>
+        <br>
+
+        <div>
+        <label for="q3">You are not afraid of getting into fights to defend yourself</label>
+        </div>
+        <div>
+            <span>Disagree<input type="range" name="q3" min="1" max="5" value="3">Agree</span>
+        </div>
+        <br>
+
+        <div>
+        <label for="q4">You make an effort to get someone's attention even if it annoys them</label>
+        </div>
+        <div>
+            <span>Disagree<input type="range" name="q4" min="1" max="5" value="3">Agree</span>
+        </div>
+        <br>
+
+        <div>
+        <label for="q5">You can seem cold to those who don't know you</label>
+        </div>
+        <div>
+            <span>Disagree<input type="range" name="q5" min="1" max="5" value="3">Agree</span>
+        </div>
+        <br>
+        
+        <div>
+        <input type="submit" value="submit" name="whoareyouquiz-submit" id = "activities-submission">
+        </div>
+    </form>
+
+    <div id = 'activities-form-result'>
+        <h2 id = 'act-text'></h2>
+        <ul>
+            <li class='character-list'>
+                 <img id='act-img1' style="visibility: hidden;">
+            </li>
+            <li class='character-list' style="visibility: hidden;">
+                 <img id='act-img2'>
+            </li>
+            <li class='character-list' style="visibility: hidden;">
+                <img id='act-img3'>
+            </li>
+        </ul> 
+    </div>
+
+    <button type="button" class="button">Light Mode</button>
+    <script src="../script.js"></script>
+</body>
+</html>

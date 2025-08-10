@@ -1,0 +1,255 @@
+html {
+   height: 100%;
+}
+
+body {
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100%;
+}
+
+#footer {
+  text-align: right;
+}
+
+h1 {
+    color: rgb(112, 10, 64);
+    font-family: 'Tangerine', serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.img
+{
+  width: 200px;
+  height: 250px;
+}
+
+#activities-form-result
+{
+  width: 100%; /* Or a fixed width if you want it more controlled */
+  text-align: center; /* This will center the <ul> and its items */
+  margin: 0 auto;
+  color: blue;
+}
+
+
+  .character-list {
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .character-list button {
+    font-size: 30px;
+  }
+
+
+  .character-list h2 {
+    text-align: center;
+}
+
+  .character-list img {
+    width: 250px; /* Or whatever size suits your design */
+    height: 300px;
+}
+
+  
+  .logo {
+    width: 100px; 
+    height: 100px;
+  }
+
+  #comicstrip {
+    width: 55%; 
+    height: 95%;
+  }
+
+ .button {
+    float: right;
+ }
+ 
+ #page-turn-prev {
+    color: gray;
+ }
+
+ #page-turn-next {
+    color: blue;
+ }
+
+ #smee-img {
+    width: 200px;
+    height: 250px;
+    background-image: url('img/Smee Headshot.png');
+    background-size: cover;
+    background-position: top center;
+    margin-right: 20px;
+    outline: 2px solid transparent;
+    outline-color: black;
+ }
+
+ #smee-img:hover {
+    background-image: url('img/Smee Headshot Hover.png');
+    outline: 6px solid transparent;
+    outline-color: green;
+ }
+
+ #pha-img {
+    width: 200px;
+    height: 250px;
+    background-image: url('img/Pha Headshot.png');
+    background-size: cover;
+    background-position: top center;
+    outline: 2px solid transparent;
+    outline-color: green;
+ }
+
+ #pha-img:hover {
+    background-image: url('img/Pha Headshot Hover.png');
+    outline: 6px solid transparent;
+    outline-color: green;
+ }
+
+ #gi-img {
+    width: 200px;
+    height: 250px;
+    background-image: url('img/Gi Headshot.png');
+    background-size: cover;
+    background-position: top center;
+    margin-left: 20px;
+    outline: 2px solid transparent;
+    outline-color: green;
+ }
+
+ #gi-img:hover {
+    background-image: url('img/Gi Headshot Hover.png');
+    outline: 6px solid transparent;
+    outline-color: green;
+ }
+
+ #comment-text {
+    width: 500px;
+ }
+
+ .down-list {
+    white-space: wrap !important;
+    text-align: left;
+ }
+
+ .relations {
+    position: relative;
+    top: -23px;
+ }
+
+ #mode-button {
+   position: absolute;
+   right: 5%;
+   bottom: 5%;
+ }
+
+ .glossary {
+   position: absolute;
+   left: 5%;
+   bottom: 25%;
+ }
+
+ #smeephagi-animate {
+   height: 30%;
+   width: 30%;
+   outline: 10px solid transparent;
+   outline-color: rgb(112, 10, 64);
+ }
+
+ .navbar li {
+   list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+   float: right;
+   color: white;
+   text-align: center;
+   outline: 2px solid black;
+ }
+
+ .navbar li a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding: 15px;
+   display: inline-block;
+   text-align: center;
+   background-color: rgb(149, 142, 142);
+ }
+
+ .navbar li a:hover{
+   color: blue;
+   background-color: rgb(188, 180, 180);
+ }
+
+ #about-us {
+  text-align: center;
+ }
+
+ #about-us p {
+  text-align: left;
+  margin: auto;
+  max-width: 50%;
+ }
+
+ #donate-list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+#donate-list ul {
+  display: inline-block;
+  text-align: left;
+}
+
+
+#quiz-list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+#quiz-list ul {
+  display: inline-block;
+  text-align: left;
+}
+
+
+datalist {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Creates two columns, one for labels and one for sliders */
+  gap: 5px; /* Space between each label/slider pair */
+}
+
+#about_img {
+  height: 50%;
+  width: 50%;
+}
+
+
+/* For comments in Comics-Comments.php */
+.table-container
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+  overflow: scroll;
+  outline: 2px solid white;
+}
